@@ -12,11 +12,18 @@ This repository provides:
 
 ## Quick Start
 
-1. [DSMLP Platform Setup](docs/setup/dsmlp-setup.md)
-2. [Graph Learning Frameworks](docs/setup/)
-3. [Common Issues & Solutions](docs/dependencies/troubleshooting.md)
-4. [Compute Optimization](docs/compute/optimization.md)
-5. [Benchmark Results](docs/benchmarks/)
+### For New Users
+
+1. [DSMLP Platform Setup](docs/setup/dsmlp-setup.md) - Get started on DSMLP
+2. [Run Quick Start Example](examples/quickstart.py) - Test your environment
+3. [Choose a Framework](docs/setup/) - PyG, DGL, or GraphGym
+
+### Documentation
+
+1. [Setup Guides](docs/setup/) - Installation and configuration
+2. [Troubleshooting](docs/dependencies/troubleshooting.md) - Common issues
+3. [Optimization](docs/compute/optimization.md) - Performance tuning
+4. [Benchmarks](docs/benchmarks/) - Experiment results
 
 ## Documentation Structure
 
@@ -35,7 +42,11 @@ docs/
 │   └── resource-allocation.md
 └── benchmarks/        # Benchmark results and templates
     ├── README.md
-    └── template.md
+    ├── template.md
+    └── example_node_classification_cora_gcn.md
+examples/              # Example code and tutorials
+├── README.md
+└── quickstart.py
 ```
 
 ## Contributing
