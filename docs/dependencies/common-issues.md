@@ -14,7 +14,7 @@ This document provides a quick reference for the most common dependency issues a
 | CUDA | 11.7 or 11.8 | N/A | GPU support |
 | Python | 3.8-3.10 | N/A | Avoid 3.11+ for now |
 
-## Top 10 Most Common Issues
+## Most Common Issues
 
 ### 1. CUDA Version Mismatch
 **Quick Fix:**
